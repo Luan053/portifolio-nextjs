@@ -17,8 +17,8 @@ const NavItems = [
 
 export const Header = () => {
   return (
-    <div className="w-screen flex justify-center mt-2">
-      <header className="sticky w-3/4 z-10 h-20 bg-zinc-900 opacity-95 flex items-center justify-center rounded-3xl">
+    <div className="w-screen flex justify-center">
+      <header className="absolute mt-4 w-3/4 z-10 h-20 bg-zinc-900 opacity-95 flex items-center justify-center rounded-3xl">
         <div className="w-full flex justify-between items-center px-8">
           <Link href="/">
             <Image
